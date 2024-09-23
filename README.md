@@ -13,12 +13,12 @@ Trying to add my Learnings of HTML,CSS
        - Absolute URL : which contains the full web address, starting with protocol (http:// or https://) and points to a specific location on the internet.
        - Relative URL : doesn't have the full web address, only the path re;ative to current pages or website(i.e., other html or css page in project code). It is used for linking within the same site.
     - `<a></a>` has another attribute <ins> target </ins> 'target= _blank' it opens the href URL in new page.
-    - `title` attribute shows the additional information when you hover on the href.
-* `<audio></audio>` used to add the audio files with `<source>` as self ending tag and contains few attributes
-       - `controls` attribute to display the controllers on the page.
-       -`autoplay` is used play the audio once page is loaded.
-       -`muted` will mute the audio on loading and you have to unmute.
-       -`loop` loops the audio.
+   - `title` attribute shows additional information when you hover over the href.
+* `<audio></audio>` is used to add audio files with `<source>` as a self-closing tag and contains a few attributes:
+  - `controls`: Displays the audio controls (play, pause, volume) on the page.
+  - `autoplay`: Automatically plays the audio once the page is loaded.
+  - `muted`: Mutes the audio when the page loads, and you can manually unmute it.
+  - `loop`: Repeats the audio continuously once it reaches the end.
 *  Self- Ending tags are
        -`<br>` for line break.
        -`<hr>` for line a horizontal line across your page.
