@@ -15,13 +15,13 @@ Trying to add my Learnings of HTML,CSS
     - `<a></a>` has another attribute <ins> target </ins> 'target= _blank' it opens the href URL in new page.
     - `title` attribute shows the additional information when you hover on the href.
 * `<audio></audio>` used to add the audio files with `<source>` as self ending tag and contains few attributes
-      - `controls` attribute to display the controllers on the page.
-      - `autoplay` is used play the audio once page is loaded.
-      - `muted` will mute the audio on loading and you have to unmute.
-      - `loop` loops the audio.
+       - `controls` attribute to display the controllers on the page.
+       -`autoplay` is used play the audio once page is loaded.
+       -`muted` will mute the audio on loading and you have to unmute.
+       -`loop` loops the audio.
 *  Self- Ending tags are
-      -`<br>` for line break.
-      -`<hr>` for line a horizontal line across your page.
-      -`<img>` to inculde the image and it has attributes like height, width and alt(i.e., to display the text if incase something went wrong with picture or for visual impaired people).
+       -`<br>` for line break.
+       -`<hr>` for line a horizontal line across your page.
+       -`<img>` to inculde the image and it has attributes like height, width and alt(i.e., to display the text if incase something went wrong with picture or for visual impaired people).
 
 # **CSS (Cascading Style Sheets)** : that adds style to a web page just like Decorations and design and colors of the interior
