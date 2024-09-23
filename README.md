@@ -20,12 +20,12 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   - **`target="_blank"`**: Opens the linked document in a new tab.
   - **`title`**: Displays additional information when you hover over the link.
 
-### Audio Tag
-- `<audio></audio>`: Used to add audio files. Common attributes include:
-  - `controls`: Displays audio playback controls (e.g., play, pause, volume).
-  - `autoplay`: Automatically plays the audio once the page loads.
-  - `muted`: Mutes the audio when the page loads; the user has to manually unmute.
-  - `loop`: Repeats the audio continuously.
+### Audio and Video Tags
+- Both `<audio>` and `<video>` tags are used to embed media on a webpage. The common attributes for both tags are:
+  - `controls`: Displays playback controls (e.g., play, pause, volume).
+  - `autoplay`: Automatically plays the media once the page loads.
+  - `muted`: Mutes the media on load; the user can manually unmute it.
+  - `loop`: Repeats the media continuously.
 
 ### Self-Closing Tags
 - `<br>`: Inserts a line break.
