@@ -1,27 +1,39 @@
 # HTML_CSS
-Trying to add my Learnings of HTML,CSS
+Trying to add my learnings of HTML and CSS.
 
-# **HTML (Hyper Text Markup Language)** : is the basic structure of the website pages just like skeleton
+## **HTML (HyperText Markup Language)** 
+HTML defines the basic structure of a website, similar to the skeleton of a webpage.
 
-* `<html></html>`, `<head></head>`, `<body></body>` are the most basic tag need to be present in index.html code.
-* `<title></title>` is where you will write what ever need to be visble in URL.
-* `<!-- -->` is used for comments.
-* `<h>` tags are used for Headings and there are from h1 to h6
-*  `<p></p>` tags are used for paragraph of text and `<pre></pre>` is used for pre-formatting the text(adding the line breaks or writing the text in required format)
-*  `<a></a>` anchor tags are used for hyperlinks (ie.,if you give href='mailto:test@fakegmail.com' it will open the outlook) and it requires attributes
-    - ins>**href**</ins> hold the URL links and this url's are of two kinds.
-       - Absolute URL : which contains the full web address, starting with protocol (http:// or https://) and points to a specific location on the internet.
-       - Relative URL : doesn't have the full web address, only the path re;ative to current pages or website(i.e., other html or css page in project code). It is used for linking within the same site.
-    - `<a></a>` has another attribute <ins> target </ins> 'target= _blank' it opens the href URL in new page.
-   - `title` attribute shows additional information when you hover over the href.
-* `<audio></audio>` is used to add audio files with `<source>` as a self-closing tag and contains a few attributes:
-  - `controls`: Displays the audio controls (play, pause, volume) on the page.
-  - `autoplay`: Automatically plays the audio once the page is loaded.
-  - `muted`: Mutes the audio when the page loads, and you can manually unmute it.
-  - `loop`: Repeats the audio continuously once it reaches the end.
-*  Self- Ending tags are
-       -`<br>` for line break.
-       -`<hr>` for line a horizontal line across your page.
-       -`<img>` to inculde the image and it has attributes like height, width and alt(i.e., to display the text if incase something went wrong with picture or for visual impaired people).
+### Basic HTML Tags
+- `<html></html>`, `<head></head>`, `<body></body>`: These are the fundamental tags required in any `index.html` file.
+- `<title></title>`: Defines the text that will be visible in the browser tab or window title.
+- `<!-- -->`: Used to insert comments in the code that won’t be displayed on the webpage.
+- `<h1>` to `<h6>`: Heading tags. `<h1>` is the largest and `<h6>` the smallest.
+- `<p></p>`: Defines a paragraph of text.
+- `<pre></pre>`: Preserves the format of the text, including spaces, line breaks, and indentation.
 
-# **CSS (Cascading Style Sheets)** : that adds style to a web page just like Decorations and design and colors of the interior
+### Anchor Tags (Hyperlinks)
+- `<a></a>`: Anchor tags create hyperlinks. Attributes include:
+  - **`href`**: Specifies the URL or path to the linked document. There are two types of URLs:
+    - **Absolute URL**: Full web address starting with the protocol (e.g., `http://` or `https://`), pointing to a specific location on the internet.
+    - **Relative URL**: A path relative to the current page or website (e.g., linking to another HTML or CSS file within the project).
+  - **`target="_blank"`**: Opens the linked document in a new tab.
+  - **`title`**: Displays additional information when you hover over the link.
+
+### Audio Tag
+- `<audio></audio>`: Used to add audio files. Common attributes include:
+  - `controls`: Displays audio playback controls (e.g., play, pause, volume).
+  - `autoplay`: Automatically plays the audio once the page loads.
+  - `muted`: Mutes the audio when the page loads; the user has to manually unmute.
+  - `loop`: Repeats the audio continuously.
+
+### Self-Closing Tags
+- `<br>`: Inserts a line break.
+- `<hr>`: Inserts a horizontal line.
+- `<img>`: Adds images to the webpage, with attributes such as:
+  - `src`: Specifies the image source.
+  - `alt`: Alternative text for the image, used for accessibility or when the image fails to load.
+  - `height`, `width`: Set the dimensions of the image.
+
+## **CSS (Cascading Style Sheets)** 
+CSS adds style to a web page, acting as the decoration, design, and color of the webpage's "interior."
