@@ -36,8 +36,14 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   - `height`, `width`: Set the dimensions of the image.
  
 ### Text Formatting
--`<b></b>` : used to bold the text (i.e, `<b> Bold </b>)
--
+-`<b></b>` : used to bold the text (i.e, `<b> Bold </b>)`)
+-`<i></i>` :Used for italic text (i.e, `<i> italic </i>)`)
+-`<u></u>` :Used for underlined text (i.e, `<u> underlined </u>)`)
+-`<del></del>` :Used for deleted text which means it will be striked out(i.e, `<del> deleted </del>)`)
+-`<big></big>` : whatever text wrapped inside this tag will be bigger than surrounded ones(i.e, `<big> big </big>)`)
+-`<small></small>` : whatever text wrapped inside this tag will be smaller than surrounded ones (i.e, `<small> small </small>)`)
+-`<sub></sub>` : text wrapped between this tag will be smaller and it's just underneath the other text surrounding (i.e, `<i> italic </i>)`)
+
 
 ## **CSS (Cascading Style Sheets)** 
 CSS adds style to a web page, acting as the decoration, design, and color of the webpage's "interior."
