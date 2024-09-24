@@ -34,6 +34,10 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   - `src`: Specifies the image source.
   - `alt`: Alternative text for the image, used for accessibility or when the image fails to load.
   - `height`, `width`: Set the dimensions of the image.
+ 
+### Text Formatting
+-`<b></b>` : used to bold the text (i.e, `<b> Bold </b>)
+-
 
 ## **CSS (Cascading Style Sheets)** 
 CSS adds style to a web page, acting as the decoration, design, and color of the webpage's "interior."
