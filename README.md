@@ -35,14 +35,105 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   - `alt`: Alternative text for the image, used for accessibility or when the image fails to load.
   - `height`, `width`: Set the dimensions of the image.
  
-### Text Formatting
--`<b></b>` : used to bold the text (i.e, `<b> Bold </b>)`)
--`<i></i>` :Used for italic text (i.e, `<i> italic </i>)`)
--`<u></u>` :Used for underlined text (i.e, `<u> underlined </u>)`)
--`<del></del>` :Used for deleted text which means it will be striked out(i.e, `<del> deleted </del>)`)
--`<big></big>` : whatever text wrapped inside this tag will be bigger than surrounded ones(i.e, `<big> big </big>)`)
--`<small></small>` : whatever text wrapped inside this tag will be smaller than surrounded ones (i.e, `<small> small </small>)`)
--`<sub></sub>` : text wrapped between this tag will be smaller and it's just underneath the other text surrounding (i.e, `<i> italic </i>)`)
+## Text Formatting in HTML
+
+### 1. **Bold Text**
+- **Tag**: `<b></b>` 
+- **Use**: To make text bold.
+- **Example**: 
+    ```html
+    <b>This is bold text</b>
+    ```
+- **Output**: This is bold text
+
+### 2. **Italic Text**
+- **Tag**: `<i></i>`
+- **Use**: To make text italicized.
+- **Example**:
+    ```html
+    <i>This is italic text</i>
+    ```
+- **Output**: *This is italic text*
+
+### 3. **Underlined Text**
+- **Tag**: `<u></u>`
+- **Use**: To underline text.
+- **Example**:
+    ```html
+    <u>This is underlined text</u>
+    ```
+- **Output**: <u>This is underlined text</u>
+
+### 4. **Strikethrough (Deleted) Text**
+- **Tag**: `<del></del>`
+- **Use**: To show text that is "deleted" or struck through.
+- **Example**:
+    ```html
+    <del>This is deleted text</del>
+    ```
+- **Output**: ~~This is deleted text~~
+
+### 5. **Bigger Text**
+- **Tag**: `<big></big>`
+- **Use**: To display larger text than the surrounding content.
+- **Example**:
+    ```html
+    <big>This text is bigger</big>
+    ```
+- **Output**: <big>This text is bigger</big>
+
+### 6. **Smaller Text**
+- **Tag**: `<small></small>`
+- **Use**: To display smaller text than the surrounding content.
+- **Example**:
+    ```html
+    <small>This text is smaller</small>
+    ```
+- **Output**: <small>This text is smaller</small>
+
+### 7. **Subscript Text**
+- **Tag**: `<sub></sub>`
+- **Use**: To place text slightly below the normal line, like in chemical formulas.
+- **Example**:
+    ```html
+    H<sub>2</sub>O
+    ```
+- **Output**: H<sub>2</sub>O
+
+### 8. **Superscript Text**
+- **Tag**: `<sup></sup>`
+- **Use**: To place text slightly above the normal line, like in exponents.
+- **Example**:
+    ```html
+    E = mc<sup>2</sup>
+    ```
+- **Output**: E = mc<sup>2</sup>
+
+### 9. **Monospaced (Teletype) Text**
+- **Tag**: `<tt></tt>`
+- **Use**: To display text in a monospaced (equal-width) font, commonly used for code snippets.
+- **Example**:
+    ```html
+    <tt>This is monospaced text</tt>
+    ```
+- **Output**: <tt>This is monospaced text</tt>
+
+### 10. **Highlighted Text**
+- **Tag**: `<mark></mark>`
+- **Use**: To highlight text with a background color.
+- **Example**:
+    ```html
+    <mark>This text is highlighted</mark>
+    ```
+- **Output**: <mark>This text is highlighted</mark>
+
+- You can also change the highlight color using inline CSS:
+    ```html
+    <mark style="background-color: lightgreen;">This is highlighted in light green</mark>
+    ```
+- **Output**: <mark style="background-color: lightgreen;">This is highlighted in light green</mark>
+
+---
 
 
 ## **CSS (Cascading Style Sheets)** 
