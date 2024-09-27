@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Form Page for Button tags</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Simple Form</h1>
+
+    <form
+      action="/submit-form"
+      method="POST"
+      style="
+        margin: 0 auto;
+        width: 300px;
+        border: 1px solid #000;
+        padding: 20px;
+      "
+    >
+      <!-- Name Field -->
+      <label for="name">Name:</label><br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+        style="width: 100%; padding: 5px; margin-bottom: 10px"
+      /><br />
+
+      <!-- Email Field -->
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        style="width: 100%; padding: 5px; margin-bottom: 10px"
+      /><br />
+
+      <!-- Password Field -->
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+        style="width: 100%; padding: 5px; margin-bottom: 10px"
+      /><br />
+
+      <!-- Gender Selection -->
+      <label for="gender">Gender:</label><br />
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br /><br />
+
+      <!-- Submit, Reset, and General Button -->
+      <button type="submit" style="padding: 5px 10px">Submit</button>
+      <button type="reset" style="padding: 5px 10px; margin-left: 10px">
+        Reset
+      </button>
+    </form>
+  </body>
+</html>
