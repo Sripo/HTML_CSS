@@ -228,6 +228,10 @@ To create a list of terms and descriptions, similar to a dictionary or glossary.
 
 - What to Remember: The `<dt>` tag is for the term, and the `<dd>` tag is for its description. This is useful when you need to define terms or present data in a key-value format.
 
+## Table Tags
+- ** Tags & Purpose: ** `<table><tr><th></th></tr>  <tr><td></td></tr> </table>`. <ins> tr </ins> refers to row whereas <ins> th </ins> shows the items inside this tag would be the headings of the table. actual data of the rows will be wrapped inside the <ins> td </ins> tags.
+    - atttributes of `<table>` tags are border (ie., `<table border ="1">` value = 0 refers to no border whereas as increase in the number will bolds the border)
+    - you can set the alignment of text for row data by `<tr align = "center'>`
 
 ---
 
