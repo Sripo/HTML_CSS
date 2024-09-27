@@ -232,6 +232,26 @@ To create a list of terms and descriptions, similar to a dictionary or glossary.
 - ** Tags & Purpose: ** `<table><tr><th></th></tr>  <tr><td></td></tr> </table>`. <ins> tr </ins> refers to row whereas <ins> th </ins> shows the items inside this tag would be the headings of the table. actual data of the rows will be wrapped inside the <ins> td </ins> tags.
     - atttributes of `<table>` tags are border (ie., `<table border ="1">` value = 0 refers to no border whereas as increase in the number will bolds the border)
     - you can set the alignment of text for row data by `<tr align = "center'>`
+ 
+## Button Tag
+- The `<button>` tag is used to create clickable buttons on a webpage. It is versatile and can contain not only text but also images or other HTML content. The `<button>` element can be customized using various attributes.
+
+**Types of Buttons** : The most common type attributes for the <button> tag are:
+    | **Button Type**  | **Description**                                                | **Code Example**                                         |
+|------------------|----------------------------------------------------------------|----------------------------------------------------------|
+| **`<button type="button">`**  | A general-purpose button that can be used to trigger JavaScript actions, but doesn't submit a form. | ```html <button type="button">Click Me</button>```      |
+| **`<button type="submit">`**  | A button that submits form data when clicked, used inside a `<form>`. | ```html <button type="submit">Submit Form</button>```   |
+| **`<button type="reset">`**  | A button that resets form fields to their default values. | ```html <button type="reset">Reset Form</button>```     |
+
+**Summary of Attribute**
+- `type` : Specifies the button type(`button`, `submit`, `reset`)
+- `disabled` : Disables the button , making it unclickable.
+- `form` : Associates the button with a specific form via the form's `id`.
+- `formmethod` : Defines the HTTP method (get, post) to use when submitting (overrides the form’s method).
+- `formtarget` : Specifies where to display the response after submitting (e.g., `_blank`, `_self`, etc.).
+- `name` : Assigns a name to the button, useful when passing button-specific data during form submission.
+- `value` : Specifies the value to be submitted with the button (useful when the button's value matters in form data).
+
 
 ---
 
