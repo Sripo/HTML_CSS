@@ -134,11 +134,88 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
 ---
 ## Grouping HTML Together
 
-### `<span></span>` : 
-is a inline container to group elements for styling purpose (ie., An inline element does not start on a new line and it only takes up as much width as necessary). Span is just like a highlighter only highligts until the content is present
+### 1. **Inline Grouping with `<span>`**
+- **Tag**: `<span></span>`
+- **Use**: An inline container used to group elements for styling purposes. An inline element does not start on a new line and only takes up as much width as necessary.
+- **Example**:
+    ```html
+    <span style="color: red;">This is inline grouped text</span>
+    ```
+- **Output**: <span style="color: red;">This is inline grouped text</span>
 
-### `<div></div>` :
-is a block container to group elements for styling purpose (ie., A block-level element always starts on a new line and takes up the full width available). Dive is uses the entire width of the screen and  if you apply this on paragraph then it will create a new paragraph and apply the styles on that particular content.
+- **Tip**: Think of `<span>` as a highlighter—it only affects the content it surrounds.
+
+### 2. **Block Grouping with `<div>`**
+- **Tag**: `<div></div>`
+- **Use**: A block-level container used to group elements for styling purposes. A block element starts on a new line and takes up the full width available.
+- **Example**:
+    ```html
+    <div style="background-color: lightblue; padding: 10px;">
+        This is block grouped text inside a div.
+    </div>
+    ```
+- **Output**:
+    <div style="background-color: lightblue; padding: 10px;">
+        This is block grouped text inside a div.
+    </div>
+
+- **Tip**: Use `<div>` when you want to separate sections or paragraphs and apply styles to them.
+
+---
+
+## Listing Tags
+
+### 1. **Unordered List (Bullet Points)**
+- **Tags**: `<ul><li></li></ul>`
+- **Use**: To create a list with bullet points. The `<li>` tag is used to define individual list items.
+- **Example**:
+    ```html
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+    ```
+- **Output**:
+    - Item 1
+    - Item 2
+    - Item 3
+
+- **Tip**: You can also create nested lists by placing another `<ul>` inside a `<li>`.
+
+### 2. **Ordered List (Numbered)**
+- **Tags**: `<ol><li></li></ol>`
+- **Use**: To create a list with numbers. The `<li>` tag is used to define individual list items.
+- **Example**:
+    ```html
+    <ol>
+      <li>First item</li>
+      <li>Second item</li>
+      <li>Third item</li>
+    </ol>
+    ```
+- **Output**:
+    1. First item
+    2. Second item
+    3. Third item
+
+### 3. **Description List (Key-Value Pair)**
+- **Tags**: `<dl><dt><dd></dd></dt></dl>`
+- **Use**: To create a list that pairs terms and descriptions, similar to a dictionary.
+- **Example**:
+    ```html
+    <dl>
+      <dt>HTML</dt>
+      <dd>Hypertext Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+    </dl>
+    ```
+- **Output**:
+    - **HTML**: Hypertext Markup Language
+    - **CSS**: Cascading Style Sheets
+
+---
 
 
 ## **CSS (Cascading Style Sheets)** 
