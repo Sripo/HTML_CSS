@@ -126,14 +126,19 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
     <mark>This text is highlighted</mark>
     ```
 - **Output**: <mark>This text is highlighted</mark>
-
 - You can also change the highlight color using inline CSS:
     ```html
     <mark style="background-color: lightgreen;">This is highlighted in light green</mark>
     ```
 - **Output**: <mark style="background-color: lightgreen;">This is highlighted in light green</mark>
-
 ---
+## Grouping HTML Together
+
+### `<span></span>` : 
+is a inline container to group elements for styling purpose (ie., An inline element does not start on a new line and it only takes up as much width as necessary). Span is just like a highlighter only highligts until the content is present
+
+### `<div></div>` :
+is a block container to group elements for styling purpose (ie., A block-level element always starts on a new line and takes up the full width available). Dive is uses the entire width of the screen and  if you apply this on paragraph then it will create a new paragraph and apply the styles on that particular content.
 
 
 ## **CSS (Cascading Style Sheets)** 
