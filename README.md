@@ -218,6 +218,8 @@ To create a list of terms and descriptions, similar to a dictionary or glossary.
       <dd>HyperText Markup Language</dd>
       <dt>CSS</dt>
       <dd>Cascading Style Sheets</dd>
+    <dt>JS</dt>
+    <dd> JavaScript</dd>
     </dl>
     ```
 - **Output**:
