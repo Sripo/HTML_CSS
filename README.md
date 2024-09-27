@@ -209,7 +209,7 @@ To create a list where each item is preceded by a bullet.
 - What to Remember: Ordered lists automatically generate numbers for you, and you can nest them too. The sub-steps (3.1, 3.2) are created by adding another `<ol>` inside the third `<li>`.
 
 ### 3. **Description List (Key-Value Pairs)**
-To create a list of terms and descriptions, similar to a dictionary or glossary.
+To create a list of terms and descriptions, similar to a dictionary or glossary. you can add the styles to this list by adding the background-color in DL tag with inline styling.
 - Tag: `<dl><dt><dd></dd></dt></dl>`
 - **Example**:
     ```html
@@ -228,7 +228,28 @@ To create a list of terms and descriptions, similar to a dictionary or glossary.
 
 - What to Remember: The `<dt>` tag is for the term, and the `<dd>` tag is for its description. This is useful when you need to define terms or present data in a key-value format.
 
+
 ---
 
 ## **CSS (Cascading Style Sheets)** 
 CSS adds style to a web page, acting as the decoration, design, and color of the webpage's "interior."
+
+### Terminology 
+The terms `px`,`pt`, and `rem` are units of measurement used in CSS for defining sizes, particularly for fonts, apdding, margins, and other layout dimensions. They don't belong to HTML directly but are used within CSS to style HTML elements.
+
+#### **px(Pixels)** : refers to smallest unit of measurement on the screen. It represents an absolute size, meaning 10px will always be 10 pixels regardless of screen size or resolution.
+
+    - <ins> When to use(pro's) </ins> Use `px` when you want precise, fixed control over an element's size. It's good for small details like borders, icons, or when you want an exactly layout.
+    - <ins> Con's </ins> since pixels are fixed, they don't scale well across different screen sizes or accessibility needs.
+
+#### **pt(Points)**: which comes from print design (not user-friendly). There are 72 points per inch. Like `px`, it's an absolute measurement, but it's more commonly used in printed materials (like PDF's).
+   - Rarely used in web design. It's more suitable for print, not responsive design.
+
+#### **rem(Root Em)**: rem is a relative unit, which is based on the root element's ( `<html>` ) font size. It is scalable, meaning it adapts based on the user’s settings or the browser’s default size (typically 16px by default).
+    -<ins> When to use </ins> Use rem for responsive design, as it scales better across different devices and respects user accessibility settings. It's great for layouts and text, making your     design flexible and user-friendly.
+
+| Unit | When to Use | Description |
+|------|-------------|-------------|
+| **px** | When you need absolute control over the size of elements | Good for small or decorative elements that don’t need to scale. Doesn’t respond to user settings or device screen size. |
+| **rem** | When you want your design to be flexible, scalable, and responsive | Ideal for modern web design, respects user accessibility settings, and scales well across devices. |
+| **pt** | Only in rare cases, primarily for print | Used mostly for print-related designs. Not recommended for web design as it doesn’t adapt well to screen environments. |
