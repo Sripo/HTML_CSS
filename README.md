@@ -237,16 +237,17 @@ CSS adds style to a web page, acting as the decoration, design, and color of the
 ### Terminology 
 The terms `px`,`pt`, and `rem` are units of measurement used in CSS for defining sizes, particularly for fonts, apdding, margins, and other layout dimensions. They don't belong to HTML directly but are used within CSS to style HTML elements.
 
-#### **px(Pixels)** : refers to smallest unit of measurement on the screen. It represents an absolute size, meaning 10px will always be 10 pixels regardless of screen size or resolution.
+- **px(Pixels)** : refers to smallest unit of measurement on the screen. It represents an absolute size, meaning 10px will always be 10 pixels regardless of screen size or resolution.
 
-    - <ins> When to use(pro's) </ins> Use `px` when you want precise, fixed control over an element's size. It's good for small details like borders, icons, or when you want an exactly layout.
-    - <ins> Con's </ins> since pixels are fixed, they don't scale well across different screen sizes or accessibility needs.
+      - <ins> When to use(pro's) </ins> Use `px` when you want precise, fixed control over an element's size. It's good for small details like borders, icons, or when you want an exactly layout.
+      - <ins> Con's </ins> since pixels are fixed, they don't scale well across different screen sizes or accessibility needs.
 
-#### **pt(Points)**: which comes from print design (not user-friendly). There are 72 points per inch. Like `px`, it's an absolute measurement, but it's more commonly used in printed materials (like PDF's).
+- **pt(Points)**: which comes from print design (not user-friendly). There are 72 points per inch. Like `px`, it's an absolute measurement, but it's more commonly used in printed materials (like PDF's).
    - Rarely used in web design. It's more suitable for print, not responsive design.
 
-#### **rem(Root Em)**: rem is a relative unit, which is based on the root element's ( `<html>` ) font size. It is scalable, meaning it adapts based on the user’s settings or the browser’s default size (typically 16px by default).
-    -<ins> When to use </ins> Use rem for responsive design, as it scales better across different devices and respects user accessibility settings. It's great for layouts and text, making your     design flexible and user-friendly.
+- **rem(Root Em)**: rem is a relative unit, which is based on the root element's ( `<html>` ) font size. It is scalable, meaning it adapts based on the user’s settings or the browser’s default size (typically 16px by default).
+
+      - <ins> When to use </ins> Use rem for responsive design, as it scales better across different devices and respects user accessibility settings. It's great for layouts and text, making your     design flexible and user-friendly.
 
 | Unit | When to Use | Description |
 |------|-------------|-------------|
