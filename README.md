@@ -185,8 +185,8 @@ Lists are a great way to organize content. Whether it’s a simple bullet-point 
 - What to Remember: You can easily nest lists by adding another `<ul>` or `<ol>` inside an `<li>`. In the example above, "Oranges" contains a nested list of different types of oranges.
 
 ### 2. **Ordered List (Numbered)**
-- **Tag**: `<ol></ol>` for the list, `<li></li>` for each item.
-- **Purpose**: To create a list where each item is numbered.
+- Tag: `<ol></ol>` for the list, `<li></li>` for each item.
+- Purpose: To create a list where each item is numbered.
 - **Example**:
     ```html
     <ol>
@@ -206,11 +206,11 @@ Lists are a great way to organize content. Whether it’s a simple bullet-point 
         1. Sub-step 3.1
         2. Sub-step 3.2
 
-- **What to Remember**: Ordered lists automatically generate numbers for you, and you can nest them too. The sub-steps (3.1, 3.2) are created by adding another `<ol>` inside the third `<li>`.
+- What to Remember: Ordered lists automatically generate numbers for you, and you can nest them too. The sub-steps (3.1, 3.2) are created by adding another `<ol>` inside the third `<li>`.
 
 ### 3. **Description List (Key-Value Pairs)**
-- **Tag**: `<dl><dt><dd></dd></dt></dl>`
-- **Purpose**: To create a list of terms and descriptions, similar to a dictionary or glossary.
+- Tag: `<dl><dt><dd></dd></dt></dl>`
+- Purpose: To create a list of terms and descriptions, similar to a dictionary or glossary.
 - **Example**:
     ```html
     <dl>
@@ -224,7 +224,7 @@ Lists are a great way to organize content. Whether it’s a simple bullet-point 
     - **HTML**: HyperText Markup Language
     - **CSS**: Cascading Style Sheets
 
-- **What to Remember**: The `<dt>` tag is for the term, and the `<dd>` tag is for its description. This is useful when you need to define terms or present data in a key-value format.
+- What to Remember: The `<dt>` tag is for the term, and the `<dd>` tag is for its description. This is useful when you need to define terms or present data in a key-value format.
 
 ---
 
