@@ -35,7 +35,7 @@ The `<form>` tag is used to create an HTML form for user input and submission. I
 - **target**: Specifies where to display the response after submitting the form. Can be _blank, _self, _parent, or _top.  `<form target="_blank">`
 - **autocomplete**: Enables or disables autocomplete for the entire form.  `<form autocomplete="off">`
 - **label**: Defines a label for an `<input>` element, improving accessibility by making the form more understandable to screen readers and clickable for users.
-[More about self-ending tags like `<input>` and others here.](#self-ending-tags)
+
 
 ### Self-Closing Tags
 - `<br>`: Inserts a line break.
