@@ -26,6 +26,15 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   - `autoplay`: Automatically plays the media once the page loads.
   - `muted`: Mutes the media on load; the user can manually unmute it.
   - `loop`: Repeats the media continuously.
+ 
+### Form Tags
+The <form> tag is used to create an HTML form for user input and submission. It contains form elements like <input>, <textarea>, <select>, and buttons. Below are the attributes of `<form>` tag
+  - action: Specifies the URL to send the form data to when the form is submitted.
+  - method: Specifies the HTTP method to be used when sending form data (GET or POST). (`<form action="/submit-form" method="post">`)
+  - target: Specifies where to display the response after submitting the form. Can be _blank, _self, _parent, or _top. (`<form target="_blank">`)
+  - autocomplete: Enables or disables autocomplete for the entire form. (`<form autocomplete="off">`)
+-`<label>` : used to define a label for an <input> element, improving accessibility by making the form more understandable to screen readers and clickable for users.
+[More about self-ending tags like `<input>` and others here.](#self-ending-tags)
 
 ### Self-Closing Tags
 - `<br>`: Inserts a line break.
@@ -37,6 +46,13 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
 - `<input>` : has a variety of attributes that define its behavior and functionality
   - type : Specifies the type of input (e.g., text, email, password, submit, button, checkbox, etc.).
   - name : The name of the input, used for form submission. (`<input type="text" name="username" />`)
+  - id: Unique identifier for the input field, useful for associating with a <label>. (`<input type="text" id="username" />`)
+  - placeholder: Placeholder text shown inside the input when it's empty. (`<input type="text" placeholder="Enter your name" />`)
+  - required: Makes the field mandatory for form submission. (`<input type="text" required />`)
+  - disabled: Disables the input field, making it uneditable. (`<input type="text" disabled />`)
+  - maxlength: Limits the number of characters allowed in the input. (`<input type="text" maxlength="10" />`)
+  - minlength: Specifies the minimum number of characters required. (`<input type="text" minlength="5" />`)
+  - value: Specifies the initial value of the input field or the value to submit. (`<input type="submit" value="Submit" />`)
  
 ## Text Formatting in HTML
 
