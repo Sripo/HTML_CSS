@@ -30,11 +30,11 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
 ### Form Tags
 The `<form>` tag is used to create an HTML form for user input and submission. It contains form elements like <input>, <textarea>, <select>, and buttons. Below are the attributes of `<form>` tag.
 
-- action: Specifies the URL to send the form data to when the form is submitted.
-- method: Specifies the HTTP method to be used when sending form data (GET or POST). (`<form action="/submit-form" method="post">`)
-- target: Specifies where to display the response after submitting the form. Can be _blank, _self, _parent, or _top. (`<form target="_blank">`)
-- autocomplete: Enables or disables autocomplete for the entire form. (`<form autocomplete="off">`)
-- `<label>` : used to define a label for an <input> element, improving accessibility by making the form more understandable to screen readers and clickable for users.
+- **action**: Specifies the URL to send the form data to when the form is submitted.
+- **method**: Specifies the HTTP method to be used when sending form data (GET or POST). `<form action="/submit-form" method="post">`
+- **target**: Specifies where to display the response after submitting the form. Can be _blank, _self, _parent, or _top.  `<form target="_blank">`
+- **autocomplete**: Enables or disables autocomplete for the entire form.  `<form autocomplete="off">`
+- **label**: Defines a label for an `<input>` element, improving accessibility by making the form more understandable to screen readers and clickable for users.
 [More about self-ending tags like `<input>` and others here.](#self-ending-tags)
 
 ### Self-Closing Tags
