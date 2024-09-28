@@ -28,7 +28,7 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   - `loop`: Repeats the media continuously.
  
 ### Form Tags
-The <form> tag is used to create an HTML form for user input and submission. It contains form elements like <input>, <textarea>, <select>, and buttons. Below are the attributes of `<form>` tag
+The `<form>` tag is used to create an HTML form for user input and submission. It contains form elements like <input>, <textarea>, <select>, and buttons. Below are the attributes of `<form>` tag
  - action: Specifies the URL to send the form data to when the form is submitted.
  -  method: Specifies the HTTP method to be used when sending form data (GET or POST). (`<form action="/submit-form" method="post">`)
  -  target: Specifies where to display the response after submitting the form. Can be _blank, _self, _parent, or _top. (`<form target="_blank">`)
