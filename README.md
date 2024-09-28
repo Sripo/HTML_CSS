@@ -34,6 +34,9 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   - `src`: Specifies the image source.
   - `alt`: Alternative text for the image, used for accessibility or when the image fails to load.
   - `height`, `width`: Set the dimensions of the image.
+- `<input>` : has a variety of attributes that define its behavior and functionality
+  - type : Specifies the type of input (e.g., text, email, password, submit, button, checkbox, etc.).
+  - name : The name of the input, used for form submission. (`<input type="text" name="username" />`)
  
 ## Text Formatting in HTML
 
