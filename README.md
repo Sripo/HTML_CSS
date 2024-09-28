@@ -262,8 +262,10 @@ To create a list of terms and descriptions, similar to a dictionary or glossary.
 - `name` : Assigns a name to the button, useful when passing button-specific data during form submission.
 - `value` : Specifies the value to be submitted with the button (useful when the button's value matters in form data).
 
-### Form Tags
-The `<form>` tag is used to create an HTML form for user input and submission. It contains form elements like <input>, <textarea>, <select>, and buttons. Below are the attributes of `<form>` tag.
+## form Tag
+The form tag is used to create an HTML form for user input and submission. It contins form elements like `<input>`, `<text area>`, `<select>` and few other buttons. Below are the  attributes of `<form>` tag.
+- action : Specifies the URL to send the form data to when the form is submitted.
+- method : Specifies the HTTP method to be used when sending form data (GET or POST). `<form action="/submit-form" method="post">`
 
 ---
 
