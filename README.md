@@ -27,7 +27,6 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   - `muted`: Mutes the media on load; the user can manually unmute it.
   - `loop`: Repeats the media continuously.
 
-
 ### Self-Closing Tags
 - `<br>`: Inserts a line break.
 - `<hr>`: Inserts a horizontal line.
@@ -263,6 +262,8 @@ To create a list of terms and descriptions, similar to a dictionary or glossary.
 - `name` : Assigns a name to the button, useful when passing button-specific data during form submission.
 - `value` : Specifies the value to be submitted with the button (useful when the button's value matters in form data).
 
+### Form Tags
+The `<form>` tag is used to create an HTML form for user input and submission. It contains form elements like <input>, <textarea>, <select>, and buttons. Below are the attributes of `<form>` tag.
 
 ---
 
