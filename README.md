@@ -40,6 +40,7 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   - id: Unique identifier for the input field, useful for associating with a <label>. (`<input type="text" id="username" />`)
   - placeholder: Placeholder text shown inside the input when it's empty. (`<input type="text" placeholder="Enter your name" />`)
   - required: Makes the field mandatory for form submission. (`<input type="text" required />`)
+  - pattern : Shows the pattern, how you want your input (`<input type= "tel" id ="phone" placeholder = "123-456-7890" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}]">`)
   - disabled: Disables the input field, making it uneditable. (`<input type="text" disabled />`)
   - maxlength: Limits the number of characters allowed in the input. (`<input type="text" maxlength="10" />`)
   - minlength: Specifies the minimum number of characters required. (`<input type="text" minlength="5" />`)
