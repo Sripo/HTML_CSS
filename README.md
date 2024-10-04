@@ -35,7 +35,7 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   - `alt`: Alternative text for the image, used for accessibility or when the image fails to load.
   - `height`, `width`: Set the dimensions of the image.
 - `<input>` : has a variety of attributes that define its behavior and functionality
-  - type : Specifies the type of input (e.g., text, email, password, submit, button, checkbox, etc.).
+  - type : Specifies the type of input (e.g., text, email, password, submit, tel, button, checkbox, etc.).
   - name : The name of the input, used for form submission. (`<input type="text" name="username" />`)
   - id: Unique identifier for the input field, useful for associating with a <label>. (`<input type="text" id="username" />`)
   - placeholder: Placeholder text shown inside the input when it's empty. (`<input type="text" placeholder="Enter your name" />`)
@@ -271,7 +271,7 @@ The form tag is used to create an HTML form for user input and submission. It co
 - autocomplete : Enables or disables autocomplete for the entire form.  `<form autocomplete="off">`
 - label : Defines a label for an `<input>` element, improving accessibility by making the form more understandable to screen readers and clickable for users.
     - this label tag is used to hold the text that is visible on the form (`<label for ="username">Username : </label>`) for attribute is for visual inpaired person this for will read the text
-
+- ** `<input>` ** : this input tag is used to take the data into form. It has type, placeholder, min, max but for user to understand what this `<input>` tag will take you need to add the `<label>` tag. This `<label>``<input>` tags goes hand-in-hand. label indicates what this input can hold
 
 ---
 
