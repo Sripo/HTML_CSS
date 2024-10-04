@@ -12,6 +12,9 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
 - `<p></p>`: Defines a paragraph of text.
 - `<pre></pre>`: Preserves the format of the text, including spaces, line breaks, and indentation.
 
+### Header & Footer Tags
+- `<header></header>` : holds the content at the top of our page
+
 ### Anchor Tags (Hyperlinks)
 - `<a></a>`: Anchor tags create hyperlinks. Attributes include:
   - **`href`**: Specifies the URL or path to the linked document. There are two types of URLs:
