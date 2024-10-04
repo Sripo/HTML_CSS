@@ -266,7 +266,7 @@ To create a list of terms and descriptions, similar to a dictionary or glossary.
 ## form Tag
 The form tag is used to create an HTML form for user input and submission. It contins form elements like `<input>`, `<text area>`, `<select>` and few other buttons. Below are the  attributes of `<form>` tag. Sometimes you need to change the encryption type of form. 
 
-**Example: ** `<form action = "index.php" method = "POST" enctype = "multipart/form-data">` . Let's say you're sending image &image is a large file, so we will set the encryption type to multipart in simple terms when we send the large amount of data we'll break it into multiple parts then when all of that data is received those will be reassembled `(<input type = "file" id = "file" accept = "image/png , image/jpeg"> )`. This accept attribute takes the values of what type will be accpeted in comma seprated (,) .
+**Example: ** `<form action = "index.php" method = "POST" enctype = "multipart/form-data">` . Let's say you're sending image &image is a large file, so we will set the encryption type to multipart in simple terms when we send the large amount of data we'll break it into multiple parts then when all of that data is received those will be reassembled `<input type = "file" id = "file" accept = "image/png , image/jpeg">`. This accept attribute takes the values of what type will be accpeted in comma seprated (,) .
 
 - action : Specifies the URL to send the form data to when the form is submitted.
 - method : Specifies the HTTP method to be used when sending form data (GET or POST). `<form action="/submit-form" method="post">`
