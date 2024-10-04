@@ -319,8 +319,26 @@ The form tag is used to create an HTML form for user input and submission. It co
 ## **CSS (Cascading Style Sheets)** 
 CSS adds style to a web page, acting as the decoration, design, and color of the webpage's "interior." There are 3 different ways of applying the CSS.
 
--Inline : Within the opening tag of one of your elements, you can change the style attribute then list one of many CSS properties (`<body style = "background-color : black"> <h1 style= "color : white"> This is my HTML Repo </h1></body>`)
--Internal
+-Inline : Within the opening tag of one of your elements, you can change the style attribute then list one of many CSS properties.
+    ```html 
+       <body style = "background-color : black"> <h1 style= "color : white"> This is my HTML Repo </h1></body>
+       ```
+-Internal : Adding the style sheet within the head of our HTML document through pair of style tags.
+    ```html
+    <head>
+      <style>
+         body{
+            background-color : black;
+         }
+         h1{
+         color: white;
+         }
+         p{
+         color: white;
+         }
+      </style>
+    </head>
+    ```
 -External
 
 ### Terminology 
