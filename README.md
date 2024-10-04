@@ -13,7 +13,20 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
 - `<pre></pre>`: Preserves the format of the text, including spaces, line breaks, and indentation.
 
 ### Header & Footer Tags
-- `<header></header>` : holds the content at the top of our page
+- `<header></header>` : a container for holding introductory content at the top of our page. This is where you may see a title like an H1
+```html
+<body>
+   <header>
+      <h1> Welcome to HTML Documentation </h1>
+      <a href = "" >Home </a>
+      <a href = "" >Home </a>
+      <a href = "" >Home </a>
+  </header>
+  <main> </main>
+  <footer></footer>
+</body>
+```
+    
 
 ### Anchor Tags (Hyperlinks)
 - `<a></a>`: Anchor tags create hyperlinks. Attributes include:
