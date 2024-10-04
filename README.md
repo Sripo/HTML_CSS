@@ -349,13 +349,13 @@ CSS adds style to a web page, acting as the decoration, design, and color of the
 Style.css
 body{
  background-color : black;
-         }
-         h1{
-         color: white;
-         }
-         p{
-         color: white;
-         }
+}
+h1{
+  color: white;
+}
+p{
+  color: white;
+}
 
 ```
 ### Terminology 
