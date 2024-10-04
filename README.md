@@ -270,6 +270,7 @@ The form tag is used to create an HTML form for user input and submission. It co
 - target : Specifies where to display the response after submitting the form. Can be _blank, _self, _parent, or _top.  `<form target="_blank">`
 - autocomplete : Enables or disables autocomplete for the entire form.  `<form autocomplete="off">`
 - label : Defines a label for an `<input>` element, improving accessibility by making the form more understandable to screen readers and clickable for users.
+    - this label tag is used to hold the text that is visible on the form (`<label for ="username">Username : </label>`) for attribute is for visual inpaired person this for will read the text
 
 
 ---
