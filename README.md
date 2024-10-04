@@ -339,8 +339,12 @@ CSS adds style to a web page, acting as the decoration, design, and color of the
       </style>
     </head>
     ```
--External
-
+-External : This are probably the most popular method because we can make a stylesheet that's reusable. To create an external stylesheet within our website folder we're going to create a new document (i.e.,s style.css) . We need to link this stylesheet to our HTML file by
+```html
+<head>
+   <link rel = "stylesheet" href = "style.css">
+</head>
+```
 ### Terminology 
 The terms `px`,`pt`, and `rem` are units of measurement used in CSS for defining sizes, particularly for fonts, apdding, margins, and other layout dimensions. They don't belong to HTML directly but are used within CSS to style HTML elements.
 
