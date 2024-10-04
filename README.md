@@ -344,7 +344,8 @@ CSS adds style to a web page, acting as the decoration, design, and color of the
 <head>
    <link rel = "stylesheet" href = "style.css">
 </head>
-
+```
+```CSS
 Style.css
 body{
  background-color : black;
