@@ -273,11 +273,13 @@ The form tag is used to create an HTML form for user input and submission. It co
     - this label tag is used to hold the text that is visible on the form (`<label for ="username">Username : </label>`) for attribute is for visual inpaired person this for will read the text
 - ** `<input>` ** : this input tag is used to take the data into form. It has type, placeholder, min, max but for user to understand what this `<input>` tag will take you need to add the `<label>` tag. This `<label>``<input>` tags goes hand-in-hand. label indicates what this input can hold.
 - `<select></select>` : This select tag is used for drop-down menu. Let's say you have to do payment or select the highest Education, then this comes into handy
-     `<select id = "Education">
+  ```html
+     <select id = "Education">
           <option value = "Secondary"> Secondary</option>
           <option value = "Bachelor's"> Bachelor's</option>
           <option value = "Master's"> Master's</option>
-      </select>`
+      </select>
+   ```
 
 ---
 
