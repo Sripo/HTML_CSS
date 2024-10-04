@@ -35,7 +35,7 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   - `alt`: Alternative text for the image, used for accessibility or when the image fails to load.
   - `height`, `width`: Set the dimensions of the image.
 - `<input>` : has a variety of attributes that define its behavior and functionality
-  - type : Specifies the type of input (e.g., text, email, password, radio, submit, tel, button, checkbox, etc.).
+  - type : Specifies the type of input (e.g., text, email, password, radio, submit, checkbox, tel, button, checkbox, etc.).
   - name : The name of the input, used for form submission. (`<input type="text" name="username" />`) 
   - id: Unique identifier for the input field, useful for associating with a <label>. (`<input type="text" id="username" />`)
   - placeholder: Placeholder text shown inside the input when it's empty. (`<input type="text" placeholder="Enter your name" />`)
@@ -264,7 +264,8 @@ To create a list of terms and descriptions, similar to a dictionary or glossary.
 - `value` : Specifies the value to be submitted with the button (useful when the button's value matters in form data).
 
 ## form Tag
-The form tag is used to create an HTML form for user input and submission. It contins form elements like `<input>`, `<text area>`, `<select>` and few other buttons. Below are the  attributes of `<form>` tag.
+The form tag is used to create an HTML form for user input and submission. It contins form elements like `<input>`, `<text area>`, `<select>` and few other buttons. Below are the  attributes of `<form>` tag. Sometimes you need to change the encryption type of form. 
+**Example: ** `<form action = "index.php" method = "POST" enctype = "multipart/form-data">` . Let's say you're sending image &image is a large file, so we will set the encryption type to multipart in simple terms when we send the large amount of data we'll break it into multiple parts then when all of that data is received those will be reassembled `(<input type = "file" id = "file" accept = "image/png , image/jpeg"> )`. This accept attribute takes the values of what type will be accpeted in comma seprated (,) .
 - action : Specifies the URL to send the form data to when the form is submitted.
 - method : Specifies the HTTP method to be used when sending form data (GET or POST). `<form action="/submit-form" method="post">`
 - target : Specifies where to display the response after submitting the form. Can be _blank, _self, _parent, or _top.  `<form target="_blank">`
@@ -280,6 +281,8 @@ The form tag is used to create an HTML form for user input and submission. It co
           <option value = "Master's"> Master's</option>
       </select>
    ```
+- `<textarea></textarea>` : used to add the comments type of textbox in form. you can set the no.of rows & Columns as well. (`<textarea id = "comment" rows = "3" cols = "25"> </textarea>`)
+- 
 
 ---
 
