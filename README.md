@@ -358,6 +358,21 @@ p{
 }
 
 ```
+- Identifiers : n identifier (also called an ID selector) allows you to target and style specific HTML elements using the id attribute. The syntax for selecting an ID in CSS is to prefix it with a #, like
+```html
+<div id="myElement">Hello World</div>
+<p id = p1> lorem+ Click tab </p>
+```
+```CSS 
+#myElement {
+  color: blue;
+  font-size: 18px;
+}
+#p1{
+  color : yellow;
+}
+```
+
 ### Terminology 
 The terms `px`,`pt`, and `rem` are units of measurement used in CSS for defining sizes, particularly for fonts, apdding, margins, and other layout dimensions. They don't belong to HTML directly but are used within CSS to style HTML elements.
 
