@@ -19,8 +19,8 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
    <header>
       <h1> Welcome to HTML Documentation </h1>
       <a href = "" >Home </a>
-      <a href = "" >Home </a>
-      <a href = "" >Home </a>
+      <a href = "" >About US </a>
+      <a href = "" >Contact </a>
   </header>
   <main> </main>
   <footer></footer>
