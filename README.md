@@ -320,11 +320,11 @@ The form tag is used to create an HTML form for user input and submission. It co
 CSS adds style to a web page, acting as the decoration, design, and color of the webpage's "interior." There are 3 different ways of applying the CSS.
 
 -Inline : Within the opening tag of one of your elements, you can change the style attribute then list one of many CSS properties.
-    ```html 
+```html 
        <body style = "background-color : black"> <h1 style= "color : white"> This is my HTML Repo </h1></body>
-       ```
+ ```
 -Internal : Adding the style sheet within the head of our HTML document through pair of style tags.
-    ```html
+```html
     <head>
       <style>
          body{
@@ -338,12 +338,24 @@ CSS adds style to a web page, acting as the decoration, design, and color of the
          }
       </style>
     </head>
-    ```
+  ```
 -External : This are probably the most popular method because we can make a stylesheet that's reusable. To create an external stylesheet within our website folder we're going to create a new document (i.e.,s style.css) . We need to link this stylesheet to our HTML file by
 ```html
 <head>
    <link rel = "stylesheet" href = "style.css">
 </head>
+
+Style.css
+body{
+ background-color : black;
+         }
+         h1{
+         color: white;
+         }
+         p{
+         color: white;
+         }
+
 ```
 ### Terminology 
 The terms `px`,`pt`, and `rem` are units of measurement used in CSS for defining sizes, particularly for fonts, apdding, margins, and other layout dimensions. They don't belong to HTML directly but are used within CSS to style HTML elements.
