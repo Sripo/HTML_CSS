@@ -26,7 +26,19 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   <footer></footer>
 </body>
 ```
-    
+- `<footer></footer>` : a container that holds the concluding content at the bottom of your page.
+```html
+<body>
+   <header>Add some headers </header>
+   <main> Add some content that should be visible in the main page </main>
+  <footer>
+      <hr>
+      author : Sri Ponakala <br>
+      &copy; copyright reserved <br>
+      <small><a href = "mailto:sripo@fake.com> Sripo@fake.com </a></small>
+  </footer>
+</body>
+```
 
 ### Anchor Tags (Hyperlinks)
 - `<a></a>`: Anchor tags create hyperlinks. Attributes include:
