@@ -259,6 +259,20 @@ The `<span>` tag is used to group inline elements, typically for styling. It's l
     <span style="color: red;">This text is grouped inline and colored red</span>
     ```
 - What to Remember: The `<span>` tag does not create a new line. It’s perfect when you want to apply styles to a specific part of the content without breaking the flow of text.
+- **`<span>` ** tag is used to style specific parts of a text without affecting the entire paragraph or block.  (` <p>This is a <span style="color: blue;">blue</span> word in a sentence.</p>`)
+- **`<rowspan>`**  is used in tables. It allows a single cell to stretch over multiple rows. Imagine you have a table, and one of the boxes(cells) covers more than one row.
+   ```html
+   <table border="1">
+      <tr>
+         <td rowspan="2">I cover 2 rows</td>
+         <td>Row 1, Column 2</td>
+      </tr>
+      <tr>
+         <td>Row 2, Column 2</td>
+      </tr>
+    </table>
+  ```
+   ![Rowspan output](images/Rowspan_Image.png)
 
 ### 2. **Using `<div>` for Block Grouping**
  The `<div>` tag is used to group block-level elements. Unlike `<span>`, it creates a new line and takes up the full width of its container.
@@ -476,3 +490,7 @@ The terms `px`,`pt`, and `rem` are units of measurement used in CSS for defining
 | **px** | When you need absolute control over the size of elements | Good for small or decorative elements that don’t need to scale. Doesn’t respond to user settings or device screen size. |
 | **rem** | When you want your design to be flexible, scalable, and responsive | Ideal for modern web design, respects user accessibility settings, and scales well across devices. |
 | **pt** | Only in rare cases, primarily for print | Used mostly for print-related designs. Not recommended for web design as it doesn’t adapt well to screen environments. |
+
+### ** Tricky Terminology**
+-**Cell Padding Vs Cell Spacing** 
+    - Cell spacing is the space or gap between two consective cells. whereas, Cell padding is the space or gap between text/content of the cell and the edge/border of the cell.
