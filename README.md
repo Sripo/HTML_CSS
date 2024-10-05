@@ -273,6 +273,20 @@ The `<span>` tag is used to group inline elements, typically for styling. It's l
     </table>
   ```
    ![Rowspan output](images/Rowspan_Image.png)
+-**`<colspan>`** is also used in tables, but it makes one cell stretch across multiple columns, covering more than one column in a table.
+  ```html
+  <table border="1">
+    <tr>
+      <td colspan="2">I cover 2 columns</td>
+    </tr>
+    <tr>
+      <td>Row 2, Column 1</td>
+      <td>Row 2, Column 2</td>
+    </tr>
+  </table>
+  ```
+   ![Colspan output](images/Colspan_Image.png)
+
 
 ### 2. **Using `<div>` for Block Grouping**
  The `<div>` tag is used to group block-level elements. Unlike `<span>`, it creates a new line and takes up the full width of its container.
