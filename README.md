@@ -314,6 +314,9 @@ The form tag is used to create an HTML form for user input and submission. It co
 - `<textarea></textarea>` : used to add the comments type of textbox in form. you can set the no.of rows & Columns as well. (`<textarea id = "comment" rows = "3" cols = "25"> </textarea>`)
 - 
 
+## Tricky Questions 
+
+-** Can you display a web page inside a web page or Is nesting of webpages possible ** : Yes, html provide a tag `<iframe>` using which we can achieve this functionality. (` <iframe src = "url of the webpage to embed"/> `)
 ---
 
 ## **CSS (Cascading Style Sheets)** 
