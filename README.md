@@ -9,9 +9,11 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
 
 ### Basic HTML Tags
 - `<html></html>`, `<head></head>`, `<body></body>`: These are the fundamental tags required in any `index.html` file.
+- `<head></head>` : Stores the metadata about the webpage and tags like `<link>`,`<meta>`, `<style>` and `<script>` etc., are not displayed on the webpage.
+- `<title></title>`: Defines the text that will be visible in the browser tab or window title.
 - `<header></header>` : Stores the starting information about the web pages.
 - `<nav></nav>` : The navigation menu of the HTML page.
-- `<title></title>`: Defines the text that will be visible in the browser tab or window title.
+- `<body></body>` : defines the body of the HTML document & should be enclosed in `<html>` tag. Also, there can be 1 body element in an HTML document and will always be after the `<head>` tag.
 - `<!-- -->`: Used to insert comments in the code that won’t be displayed on the webpage.
 - `<h1>` to `<h6>`: Heading tags. `<h1>` is the largest and `<h6>` the smallest.
 - `<p></p>`: Defines a paragraph of text.
@@ -19,6 +21,49 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
 - `<article></article>` : It is a set of information.
 - `<section></section>` : It is used inside the article block to define the basic structure of a page.
 - `<footer></footer>` : stores the last section of the pages.
+# Sample HTML Structure
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Document</title>
+  </head>
+
+  <body>
+    
+    <!-- Header section for logo or site title -->
+    <header>
+      <h1>Welcome to My Website</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main content section -->
+    <article>
+      <h2>Main Article</h2>
+      <p>This is the main content of the webpage. You can have multiple articles on a page.</p>
+    </article>
+
+    <!-- Footer section -->
+    <footer>
+      <p>&copy; 2024 My Website. All Rights Reserved.</p>
+    </footer>
+
+  </body>
+  
+</html>
+```
 
 ### Header & Footer Tags
 - `<header></header>` : a container for holding introductory content at the top of our page. This is where you may see a title like an H1.
