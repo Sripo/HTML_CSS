@@ -3,17 +3,25 @@ Trying to add my learnings of HTML and CSS.
 
 ## **HTML (HyperText Markup Language)** 
 HTML defines the basic structure of a website, similar to the skeleton of a webpage.
+-**Tags** : are the primary component of the HTML that defines how the content will be structured formatted. (`<p> HTML Documentation </p>`)
+-**Attributes** : are used along with HTML tags to define the characteristics of the element. (`<p align = "center"> HTML Tags & Attributes </p>`)
+-**Class attribute** : is used to specify the class name for an HTML element. Multiple elements in HTML can have the same class value. Also, it is mostly assoicated with styles written in the stylesheet with the HTML Elements.
 
 ### Basic HTML Tags
 - `<html></html>`, `<head></head>`, `<body></body>`: These are the fundamental tags required in any `index.html` file.
+- `<header></header>` : Stores the starting information about the web pages.
+- `<nav></nav>` : The navigation menu of the HTML page.
 - `<title></title>`: Defines the text that will be visible in the browser tab or window title.
 - `<!-- -->`: Used to insert comments in the code that won’t be displayed on the webpage.
 - `<h1>` to `<h6>`: Heading tags. `<h1>` is the largest and `<h6>` the smallest.
 - `<p></p>`: Defines a paragraph of text.
 - `<pre></pre>`: Preserves the format of the text, including spaces, line breaks, and indentation.
+- `<article></article>` : It is a set of information.
+- `<section></section>` : It is used inside the article block to define the basic structure of a page.
+- `<footer></footer>` : stores the last section of the pages.
 
 ### Header & Footer Tags
-- `<header></header>` : a container for holding introductory content at the top of our page. This is where you may see a title like an H1
+- `<header></header>` : a container for holding introductory content at the top of our page. This is where you may see a title like an H1.
 ```html
 <body>
    <header>
@@ -26,6 +34,11 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   <footer></footer>
 </body>
 ```
+#### **Confused Question**
+- Difference between `<header>` and `<head>`
+   - `<head>` : Contains metadata about the webpage, such as title, links to CSS stylesheets, scripts, and other meta-information like the character set. <ins> Content inside the `<head>` tag aren't visible to users in the browser</ins>.
+   - `<header>` : Defines the intoductory content of a webpage or a section, usually including logos, navigation menus, or headings. <ins> The Content inside `<header>` tag is visible to users and is part of the webpage layout </ins>. 
+
 - `<footer></footer>` : a container that holds the concluding content at the bottom of your page.
 ```html
 <body>
@@ -55,7 +68,7 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   - `muted`: Mutes the media on load; the user can manually unmute it.
   - `loop`: Repeats the media continuously.
 
-### Self-Closing Tags
+### Self-Closing Tags or Void Elements
 - `<br>`: Inserts a line break.
 - `<hr>`: Inserts a horizontal line.
 - `<img>`: Adds images to the webpage, with attributes such as:
@@ -170,6 +183,26 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
     <mark style="background-color: lightgreen;">This is highlighted in light green</mark>
     ```
 - **Output**: <mark style="background-color: lightgreen;">This is highlighted in light green</mark>
+
+### ** Tricky Question for this section **
+- `<b>` Vs `<strong>`
+    - `<b>` : used to make text bold without implying any extra importance. It's avisual element only.
+    - `<strong>`  : used to indicate strong importance or seriousness and semantically more meaningful. It typically also makes the text bold.
+    ```html
+       <p>This is <b>bold</b> text.</p>
+       <p>This is <strong>important</strong> text.</p>
+     Output : The <b> and <strong> tags will look visually the same, but <strong> gives extra meaning for screen readers and SEO (Search Engine optimization)
+   ```
+- `<i>` Vs `<em>`
+     - `<i>` : used to italicize text without adding emphasis or meaning.
+     - `<em>` : used to emphasize text semantically, implying stronger meaning or emphasis.
+     ```html
+        <p>This is <i>italicized</i> text.</p>
+        <p>This is <em>emphasized</em> text.</p>
+      Output : Both `<i>` and `<em>` will visually render as itaclized, but `<em>` adds emphasis in a way that is semantically meaningful.
+     ```
+
+
 ---
 ## Grouping Content in HTML
 
@@ -314,9 +347,11 @@ The form tag is used to create an HTML form for user input and submission. It co
 - `<textarea></textarea>` : used to add the comments type of textbox in form. you can set the no.of rows & Columns as well. (`<textarea id = "comment" rows = "3" cols = "25"> </textarea>`)
 - 
 
-## **Tricky Questions ** 
+## **Tricky Questions for this Section** 
 
 - Can you display a web page inside a web page or Is nesting of webpages possible  : Yes, html provide a tag `<iframe>` using which we can achieve this functionality. (` <iframe src = "url of the webpage to embed"/> `)
+-  Confusion between id and Class : Multiple elements can have the same class but you can't use a value of id attribute of one element with another HTML element.
+
 ---
 
 ## **CSS (Cascading Style Sheets)** 
