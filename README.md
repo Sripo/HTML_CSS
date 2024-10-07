@@ -106,7 +106,7 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   - **`target="_blank"`**: Opens the linked document in a new tab.
   - **`title`**: Displays additional information when you hover over the link.
 
-####**Tricky Question**
+#### **Tricky Question**
 What is the difference between `<link>` and `<a>`
  - `<link>`  defines a link between a document and an external resource and these aren't clickable.
  - `<a>` is used to create hyperlink to another webpage or to certain part of webpage and these links are clickable.
