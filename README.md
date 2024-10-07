@@ -106,6 +106,11 @@ HTML defines the basic structure of a website, similar to the skeleton of a webp
   - **`target="_blank"`**: Opens the linked document in a new tab.
   - **`title`**: Displays additional information when you hover over the link.
 
+####**Tricky Question**
+What is the difference between `<link>` and `<a>`
+ - `<link>`  defines a link between a document and an external resource and these aren't clickable.
+ - `<a>` is used to create hyperlink to another webpage or to certain part of webpage and these links are clickable.
+
 ### Audio and Video Tags
 - Both `<audio>` and `<video>` tags are used to embed media on a webpage. The common attributes for both tags are:
   - `controls`: Displays playback controls (e.g., play, pause, volume).
