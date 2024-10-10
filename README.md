@@ -2,7 +2,7 @@
 Trying to add my learnings of HTML and CSS.
 
 ## **HTML (HyperText Markup Language)** 
-HTML defines the basic structure of a website, similar to the skeleton of a webpage.
+HTML defines the basic structure of a website, similar to the skeleton of a webpage. HTML tags aren't case sensitive: `<P>` means the same as `<p>`.
 -**Tags** : are the primary component of the HTML that defines how the content will be structured formatted. (`<p> HTML Documentation </p>`)
 -**Attributes** : are used along with HTML tags to define the characteristics of the element. (`<p align = "center"> HTML Tags & Attributes </p>`)
 -**Class attribute** : is used to specify the class name for an HTML element. Multiple elements in HTML can have the same class value. Also, it is mostly assoicated with styles written in the stylesheet with the HTML Elements.
@@ -153,7 +153,7 @@ These elements don't require a closing tag and this HTML Elements with no conten
 - Empty tag is an HTML Element that doesn't have any content or closing tag. Ex : `<br>`,`<hr>`,`<img>`,`<input>`.
 - Self-closing tag refer to the way elements are written to make them syntactically valid in XHTML or XML. Ex : `<br/>`,`<img/>`, `<input/>`,`<meta/>`. These tags format(with the slash at the end) is a requirement in XML based languages.
 
-  -In summary, empty tags are about the nature of the element (having no content), while self-closing tags are about the syntax used to write those tags, particularly in XHTML.
+  - In summary, empty tags are about the nature of the element (having no content), while self-closing tags are about the syntax used to write those tags, particularly in XHTML.
   
  
 ## Text Formatting in HTML
@@ -448,6 +448,9 @@ The form tag is used to create an HTML form for user input and submission. It co
 
 - Can you display a web page inside a web page or Is nesting of webpages possible  : Yes, html provide a tag `<iframe>` using which we can achieve this functionality. (` <iframe src = "url of the webpage to embed"/> `)
 -  Confusion between id and Class : Multiple elements can have the same class but you can't use a value of id attribute of one element with another HTML element.
+
+
+
 
 ---
 
