@@ -136,6 +136,17 @@ What is the difference between `<link>` and `<a>`
   - maxlength: Limits the number of characters allowed in the input. (`<input type="text" maxlength="10" />`)
   - minlength: Specifies the minimum number of characters required. (`<input type="text" minlength="5" />`)
   - value: Specifies the initial value of the input field or the value to submit. (`<input type="submit" value="Submit" />`)
+
+#### ** Empty HTML Elements ** :
+These elements don't require a closing tag and this HTML Elements with no content. Below are few of tags
+  - `<area>` : Defines a clickable area inside an image map.
+  - `<br>` : Inserts a line break.
+  - `<embed>` : Embeds external content, like plugins or multimedia.
+  - `<hr>` : Horizontal rule or thematic break.
+  - `<img>` : Embeds an image in the document.
+  - `<imput>` : Represents an input field in forms.
+  - `<link>` : Links to an external resource, usually stylesheets.
+  - `<meta>`, `<source>`(specifies multiple media resources for media elements like`<audio>` &`<video>`,
  
 ## Text Formatting in HTML
 
