@@ -137,7 +137,7 @@ What is the difference between `<link>` and `<a>`
   - minlength: Specifies the minimum number of characters required. (`<input type="text" minlength="5" />`)
   - value: Specifies the initial value of the input field or the value to submit. (`<input type="submit" value="Submit" />`)
 
-#### ** Empty HTML Elements ** :
+### ** Empty HTML Elements ** :
 These elements don't require a closing tag and this HTML Elements with no content. Below are few of tags
   - `<area>` : Defines a clickable area inside an image map.
   - `<br>` : Inserts a line break.
@@ -147,6 +147,14 @@ These elements don't require a closing tag and this HTML Elements with no conten
   - `<imput>` : Represents an input field in forms.
   - `<link>` : Links to an external resource, usually stylesheets.
   - `<meta>`, `<source>`(specifies multiple media resources for media elements like`<audio>` &`<video>`,
+
+#### **TRICKY QUESTION**
+**What is the difference between empty tags and self-closing tags**
+- Empty tag is an HTML Element that doesn't have any content or closing tag. Ex : `<br>`,`<hr>`,`<img>`,`<input>`.
+- Self-closing tag refer to the way elements are written to make them syntactically valid in XHTML or XML. Ex : `<br/>`,`<img/>`, `<input/>`,`<meta/>`. These tags format(with the slash at the end) is a requirement in XML based languages.
+
+  -In summary, empty tags are about the nature of the element (having no content), while self-closing tags are about the syntax used to write those tags, particularly in XHTML.
+  
  
 ## Text Formatting in HTML
 
